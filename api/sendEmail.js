@@ -47,7 +47,7 @@ router.post('/', async (req, res) => {
             return
             // console.log(error)
         } else {
-            res.status(300).send('sent mail successfully')
+            res.status(200).send('sent mail successfully')
             return
         }
     })
